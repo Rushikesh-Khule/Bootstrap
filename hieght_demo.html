@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Rushikesh">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="lib/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+        <title>BS5 height Demo</title>
+        <style>
+            .outer{
+                background-color: darkblue;
+                height: 300px;
+            }
+            .inner{
+                width: 100px;
+                background-color: yellow;
+                color: black;
+                display: inline-block;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="outer">
+            <div class="inner h-25">Inner Div with 25% height</div>
+            <div class="inner h-50">Inner Div with 50% height</div>
+            <div class="inner h-75">Inner Div with 75% height</div>
+            <div class="inner h-100">Inner Div with 100% height</div>
+            <div class="inner h-auto">Inner Div with auto height</div>
+            <div class="inner mh-100">Inner Div with max height 100%</div>
+        </div>
+    </body>
+</html>

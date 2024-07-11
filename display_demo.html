@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Rushikesh">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="lib/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+        <title>BS5 display Demo</title>
+        <style>
+            .outer{
+                background-color: orange;
+                border: 1px solid black;
+            }
+            .inner{
+                background-color: cyan;
+                border: 1px solid red;
+                margin-top: 5px;
+                margin-bottom: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="outer">
+            <div class="inner d-inline">This div has BS5 display inline</div>
+        </div>
+        <br>
+        <div class="outer">
+            <span class="inner d-block">This span has BS5 display block</span>
+        </div>
+        <br>
+        <div class="outer">
+            <span class="inner d-inline-block">This span has BS5 display inline-block</span>
+        </div>
+        <br>
+        <div class="outer">This div is visible by default</div>
+        <br>
+        <div class="outer visible">This div is visible</div>
+        <br>
+        <div class="outer invisible">This div is invisible</div>
+    </body>
+</html>

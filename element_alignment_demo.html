@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Rushikesh">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="lib/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+        <title>BS5 Element Align Demo </title>
+        <style>
+            .outer{
+                background-color: orange;
+                height: 50px;
+                padding: 2px;
+            }
+            .inner{
+                background-color: aqua;
+                text-align: center;
+                display: inline-block;
+                margin: 3px;
+
+            }
+        </style>
+    </head>
+    <body>
+        <div class="outer clearfix">
+            <span class="inner float-start">float left</span>
+            <span class="inner float-end">float right</span>
+        </div>
+        <div style="background-color: blue; color: white; width: 300px;" class="mx-auto">
+            This div is center aligned. Left and right is set automatically
+        </div>
+    </body>
+</html>

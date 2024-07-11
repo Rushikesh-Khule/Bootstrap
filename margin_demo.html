@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Rushikesh">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="lib/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+        <title>BS5 Margin Demo</title>
+        <style>
+            .outer{
+                border: 2px solid black;
+                width: 700px;
+                height: 200px;
+                margin-top: 10px;
+                margin-left: 10px;
+            }
+            .inner{
+                background-color: pink;
+                border: 1px solid red;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="outer">
+            <div class="inner">inner Div 1</div>
+            <div class="inner mt-1">inner Div 2 with top margin 4px</div>
+            <div class="inner ">inner Div</div>
+
+        </div>
+        <br>
+        <div class="outer">
+            <div class="inner">inner Div 1</div>
+            <div class="inner me-2">inner Div 2 with right margin 8px</div>
+            <div class="inner ">inner Div</div>
+
+        </div>
+        <br>
+        <div class="outer">
+            <div class="inner">inner Div 1</div>
+            <div class="inner mb-3">inner Div 2 with bottom margin 16px</div>
+            <div class="inner ">inner Div 3</div>
+
+        </div>
+        <br>
+        <div class="outer">
+            <div class="inner">inner Div 1</div>
+            <div class="inner ms-4">inner Div 2 with left margin 24px</div>
+            <div class="inner ">inner Div 3</div>
+
+        </div>
+        <br>
+        <div class="outer">
+            <div class="inner">inner Div 1</div>
+            <div class="inner mx-5">inner Div 2 with left margin 3rem=48px</div>
+            <div class="inner ">inner Div</div>
+
+        </div>
+        <br>
+        <div class="outer">
+            <div class="inner">inner Div 1</div>
+            <div class="inner mx-3">inner Div 2 with leftand right margin 1rem=16px</div>
+            <div class="inner ">inner Div 3</div>
+
+        </div>
+        <br>
+        <div class="outer" style="height: 200px;">
+            <div class="inner">inner Div 1</div>
+            <div class="inner my-4">inner Div 2 with top and bottom  margin 1.5rem=24px</div>
+            <div class="inner ">inner Div 3</div>
+
+        </div>
+        <br>
+        <div class="outer" style="height: 200px;">
+            <div class="inner">inner Div 1</div>
+            <div class="inner m-2">inner Div 2 with all side margin 0.5rem=8px</div>
+            <div class="inner ">inner Div 3</div>
+
+        </div>
+        <br>
+        <div class="outer" style="height: 150px;">
+            <div class="inner">inner Div 1</div>
+            <div class="inner mt-sm-4">inner Div 2 with top margin 1.5rem=24px</div>
+            <div class="inner ">inner Div 3</div>
+
+        </div>
+        <br>
+        <div class="outer" style="height: 150px;">
+            <div class="inner">inner Div 1</div>
+            <div class="inner mt-md-4">inner Div 2 with top margin 1rem=24px</div>
+            <div class="inner ">inner Div 3</div>
+
+        </div>
+        <br>
+        <div class="outer" style="height: 150px;">
+            <div class="inner">inner Div 1</div>
+            <div class="inner mt-lg-5">inner Div 2 with top margin 3rem=48px for large device</div>
+            <div class="inner ">inner Div 3</div>
+
+        </div>
+        <br>
+        <div class="outer" style="height: 150px;">
+            <div class="inner">inner Div 1</div>
+            <div class="inner mt-xl-2">inner Div 2 with top margin 0.5rem=8px for extra large device</div>
+            <div class="inner ">inner Div 3</div>
+
+        </div>
+        <br>
+        <div class="outer" style="height: 150px;">
+            <div class="inner">inner Div 1</div>
+            <div class="inner mt-xxl-1">inner Div 2 with top margin 0.25rem=4px for extra extra large device</div>
+            <div class="inner ">inner Div 3</div>
+
+        </div>
+    </body>
+</html>
